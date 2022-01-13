@@ -34,4 +34,4 @@
 
 
 ---
-<video src='https://www.youtube.com/watch?v=hyrPd2dkM38' width=180/>
+<video src='https://www.youtube.com/watch?v=hyrPd2dkM38' />
