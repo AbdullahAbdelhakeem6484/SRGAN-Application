@@ -34,8 +34,5 @@
 
 
 ---
+[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=hyrPd2dkM38/<VIDEO ID>)
 
-[![Watch the video](https://www.youtube.com/watch?v=hyrPd2dkM38)
-<p align="center">
-<img src="">
-</p>
