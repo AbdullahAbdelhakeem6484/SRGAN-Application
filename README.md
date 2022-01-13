@@ -30,12 +30,12 @@
 
 
 
-<h1   align="center"><font size="+4">Single Image Super Resolution (SRGAN)</font></h1>
+<h1   align="center"><font size="+4">Single Image Super Resolution (SRGAN) WebSites and PIP Package</font></h1>
 
 
 ---
 
-SRGAN Website and pip Package
+[![Watch the video](https://www.youtube.com/watch?v=hyrPd2dkM38)
 <p align="center">
-<img src="Videos/Websites.wmv">
+<img src="">
 </p>
