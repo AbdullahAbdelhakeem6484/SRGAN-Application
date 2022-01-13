@@ -34,4 +34,4 @@
 
 
 ---
-https://raw.githubusercontent.com/AbdullahAbdelhakeem6484/SRGAN-Application/main//Videos/Websites.wmv
+<img src="https://raw.githubusercontent.com/AbdullahAbdelhakeem6484/SRGAN-Application/main//Videos/Websites.wmv">
