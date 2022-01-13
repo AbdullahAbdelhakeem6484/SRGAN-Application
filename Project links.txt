@@ -1,0 +1,13 @@
+			SRGAN Project Links:
+		-------------------------------
+
+1- Github :  https://github.com/AbdullahAbdelhakeem6484/ITI_Graduation_Project1_SISR_BY_GAN
+
+2- website: https://srgan-iti.herokuapp.com/
+
+3- Pip Package : https://pypi.org/project/SuperResolution-GANs/0.0.5/
+
+4- Videos:
+	1- Websites,github and pip : https://www.youtube.com/watch?v=hyrPd2dkM38
+	2- Documents               : https://www.youtube.com/watch?v=94Mkvk4PLMk
+

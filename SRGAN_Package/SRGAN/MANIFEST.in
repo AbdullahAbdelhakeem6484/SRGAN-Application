@@ -1,0 +1,3 @@
+include srgan/*.png
+include srgan/*.jpg
+include srgan/*.ttf

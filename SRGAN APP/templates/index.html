@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>SRGAN</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../static/css/fontawesome.css">
+    <link rel="stylesheet" href="../static/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="../static/css/owl.css">
+    <link rel="stylesheet" href="../static/css/lightbox.css">
+<!--
+
+TemplateMo 569 Edu Meeting
+
+https://templatemo.com/tm-569-edu-meeting
+
+-->
+  </head>
+
+<body>
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>&nbsp; Welcome in SRGAN Application <em> ITI </em> AI PRO | Machine Learning</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100010388460283"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/AbdullahAmer64"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/abdullah-abdelhakeem-3b5338116/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                    <br>
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">&nbsp;
+                          Image Super Resolution
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                          <li><a href="inference.html">Inference</a></li>
+                          <li class="scroll-to-section"><a href="#apply">SRGAN</a></li>
+                          <!--<li class="has-sub">
+                              <a href="javascript:void(0)">Pages</a>
+                              <ul class="sub-menu">
+                                  <li><a href="meetings.html">Upcoming Meetings</a></li>
+                                  <li><a href="meeting-details.html">Meeting Details</a></li>
+                              </ul>
+                          </li>-->
+                          <li class="scroll-to-section"><a href="#courses">About ITI</a></li> 
+                          <!--<li class="scroll-to-section"><a href="#contact">Contact Us</a></li> -->
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="../static/images/sr.mp4" type="video/mp4" />
+      </video>
+
+      <!--<div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>ITI INTAKE1 Powered By EPITA</h6>
+              <h2>Welcome to SRGAN</h2>
+              <div class="main-button-red">
+			  <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
+              <p>The SRGAN, introduced in 2016, addressed the issue of reconstructing high resolution (HR) images from low resolution (LR) images such that fine texture detail in the reconstructed super resolution (SR) images was not lost. Here the authors used a perceptual loss instead of a pixel-wise Mean Squared Error (MSE) loss. MSE loss approaches give a high Peak Signal-to-Noise (PSNR) value, but they also tend to produce overly-smooth images with insufficient high-frequency details.<a rel="nofollow" href="https://github.com/AbdullahAbdelhakeem6484/ITI_Graduation_Project1_SISR_BY_GAN" target="_blank">Github</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>-->
+	  
+	  <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI PRO INTAKE1 </h6>
+              <h2>&nbsp;&nbsp;&nbsp;Welcome to SRGAN</h2>
+              <p>&nbsp;The SRGAN, introduced in 2016, addressed the issue of reconstructing high &nbsp;resolution (HR) images from low resolution (LR) images such that fine texture &nbsp;detail in the reconstructed super resolution (SR) images was not lost.<a rel="nofollow" href="https://github.com/AbdullahAbdelhakeem6484/ITI_Graduation_Project1_SISR_BY_GAN" target="_blank"><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Github Project</a> Pip Package<a rel="nofollow" href="https://pypi.org/project/SuperResolution-GANs/0.0.5/" target="_blank"> SRGAN PIP </a>.</p>
+              <div class="main-button-red">
+                  <!--<div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>-->
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+	  
+	  
+	  
+	  
+	  
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 style="color: white;">&nbsp;&nbsp;&nbsp;Team</h2>
+
+          <div class="owl-service-item owl-carousel">
+          
+            <div class="item">
+              <div class="icon">
+                <img src="../static/images/bd.PNG" alt="" height="50%" width="50%">
+              </div>
+              <div class="down-content">
+                <h4>Abdullah Abdelhakeem</h4>
+                <p>I have Graduated from Mechatronics Engineering, I'm Here at ITI for merging Between Embedded Systems and Machine Learning.</p>
+              </div>
+            </div>
+			
+			
+			
+            
+            <div class="item">
+              <div class="icon">
+                <img src="../static/images/hima.PNG" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Ahmed Ibrahim</h4>
+                <p>I have Graduated from Computer Science, I'm Here at ITI because I see in it the future for our nation<br><br></p>
+              </div>
+            </div>
+			
+			
+			
+            
+            <div class="item">
+              <div class="icon">
+                <img src="../static/images/jemy.PNG" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Ahmed Gamal</h4>
+                <p>I have Graduated from Computer Science, I'm Here at ITI for merging Between Games and Machine Learning. </p>
+              </div>
+            </div>
+			
+			
+			
+            
+            <!--<div class="item">
+              <div class="icon">
+                <img src="../static/images/service-icon-02.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Online Meeting</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>
+            
+			
+			
+			
+            <div class="item">
+              <div class="icon">
+                <img src="../static/images/service-icon-03.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Best Networking</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>-->
+			
+			
+			
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <section class="upcoming-meetings" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>An Evolution in Single Image Super Resolution </h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="categories">
+            <h4>Evolution</h4>
+            <ul>
+              <li><a href="#">Super Resolution Interpolation</a></li>
+              <li><a href="#">Super Resolution CNN</a></li>
+              <li><a href="#">Super Resolution ResNet</a></li>
+              <li><a href="#">Super Resolution GAN</a></li>
+              <!--<li><a href="#">Phasellus nec sapien</a></li>-->
+            </ul>
+            <div class="main-button-red">
+              <a href="inference.html">Image Super Resolution</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span> Interpolation</span>
+                  </div>
+                  <a href="#"><img src="../static/images/interpolation.PNG" alt="New Lecturer Meeting"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="#"><h4>#1 of Evolution: Interpolation</h4></a>
+                  <p>Interpolation works by using known data <br>to estimate values at unknown points.<br> Image interpolation works in two directions, <br>and tries to achieve a best approximation <br>of a pixel’s intensity based on the values <br>at surrounding pixels.<br><br><br><br><br><br></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>SRCNN</span>
+                  </div>
+                  <a href="#"><img src="../static/images/srcnn.PNG" alt="Online Teaching"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#2 of Evolution: SRCNN</h4></a>
+                  <p>In SRCNN, first the image is upsampled<br>using bicubic interpolation and then feed <br>to a simple FCNN. It is important to note that there is no pooling operations involved.Thus, resulting in an output of the same spatial size as that of the upsampled input image. Finally, we compute the MSE loss between the target HR image with the output.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>SRResNet </span>
+                  </div>
+                  <a href="meeting-details.html"><img src="../static/images/srresnet.PNG" alt="Higher Education"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="#"><h4>#3 of Evolution: SRResNet</h4></a>
+                  <p>With some success in super resolution from single image using SRCNN, inspired others to bring further improvement the architecture. As it is known that ResNet (CNN with skip connections) are better than conventional CNNs. SRResNets replaced simple convolution blocks with residual blocks. As a result accuracy increased significantly.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>SRGAN</span>
+                  </div>
+                  <a href="#"><img src="../static/images/srgan.PNG" alt="Student Training"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="#"><h4> #4 of Evolution: SRGAN</h4></a>
+                  <p>SRGAN is a GAN based network, where the generator (G) learns to generates SR images from LR images as close as possible to HR. The discriminator (D) learns to distinguish generated SR images from real images. The G takes advantage of ResNet and sub-pixel convolution for upsampling. It also combines perceptual loss with generative or adversarial loss for the computation of its loss.<br><br><br><br></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <section class="apply-now" id="apply">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>What is super resolution?</h3>
+                <p>The estimation of a high-resolution (HR) image from a single low-resolution (LR) counterpart is referred to as super-resolution (SR). In other words, LR is a single image input, HR is the ground truth, and SR is the predicted high resolution image. When applying ML/DL solutions, the LR images are generally the down-sampled HR image with some blurring and noise added to them.</p>
+                <div class="main-button-red">
+                  <div ><a href="https://github.com/AbdullahAbdelhakeem6484/ITI_Graduation_Project1_SISR_BY_GAN">Github Project!</a></div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>SuperResolution-GANs Package</h3>
+                <p>The Python Package Index (PyPI) is a repository of software for the Python programming language.</p>
+                <div class="main-button-yellow">
+                  <div ><a href="https://pypi.org/project/SuperResolution-GANs/0.0.5/">Pip Package SRGAN!</a></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-6">
+          <div class="accordions is-first-expanded">
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>Problem Overview</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Challenging problem → difficult to infer the values for multiple pixels from a single pixel Significant advances in the last two years due to deep learning methods First deep learning systems used ConvNets, recent state-of-the-art uses GANs Goal is to find some mapping 
+                        f(ILR) = ISR where ISR is as close as possible to IHR </p>
+                    </div>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>The First Wave: ConvNets</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Convolutional networks made great progress in SISR
+                      Several variants over the years:
+                      SRCNN
+                      DRCN
+                      ESPCN
+                      General take-aways: learning upscaling leads to dramatic increases in performance, deeper networks performed better
+                      Suffers from blurry image outputs/cannot capture image textures well due to reliance on L1/L2 losses
+                      SRResNet is the current state-of-the-art ConvNet for SISR
+                      </p>
+                    </div>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>SRGAN</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>First model to use adversarial learning for super-resolution
+                        16 block deep ResNet structure + 2 PixelShuffle blocks (Transpose Conv.)
+                        Utilized a content loss (MSE or VGG) and an adversarial loss (BCE) to produce realistic images
+                        </p>
+
+                        <div class="thumb">
+                          <a href="#"><img src="../static/images/srgan.PNG" alt="srgan"></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="accordion last-accordion">
+                <div class="accordion-head">
+                    <span>Goal</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>To use adversarial learning to improve on the current state-of-the-art in SISR
+                        Build on the SRGAN baseline by exploring different choices for network architectures, the merits of different loss functions, etc.
+                        Implement an existing/design a new adversarial model that has not yet been used for SISR
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>AI PRO Intake1 Courses</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-courses-item owl-carousel">
+            
+
+            <div class="item">
+              <img src="../static/images/ml.jpg" alt="Course One">
+              
+
+              <div class="down-content">
+                <h4>Machine Learning</h4>
+                <br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              
+
+
+              <img src="../static/images/dl.jpg" alt="Course Two">
+              <div class="down-content">
+                <h4>Deep Learning</h4><br><br><br><br>
+                <br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/cv.png" alt="">
+              <div class="down-content">
+                <h4>Computer Vision</h4><br><br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/nlp.png" alt="">
+              <div class="down-content">
+                <h4>Natural Laguage Processing</h4>
+                <br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/python.png" alt="">
+              <div class="down-content">
+                <h4>Python Programming</h4><br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!--<div class="item">
+              <img src="../static/images/pyspark.jpeg" alt="">
+              <div class="down-content">
+                <h4>PySpark</h4><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+            <div class="item">
+              <img src="../static/images/probab.png" alt="">
+              <div class="down-content">
+                <h4>Probability and Statistics</h4>
+                <br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/rl.jpg" alt="">
+              <div class="down-content">
+                <h4>Reinforcement Learning</h4>
+                <br><br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/linear.png" alt="">
+              <div class="down-content">
+                <h4>Linear Algebra</h4><br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/bigData.png" alt="">
+              <div class="down-content">
+                <h4>Big Data</h4><br><br><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/rs.png" alt="">
+              <div class="down-content">
+                <h4>Recommendation System</h4><br><br><br><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../static/images/dp.jpg" alt="">
+              <div class="down-content">
+                <h4>Data Processing</h4><br>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="our-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+
+            
+
+
+            <div class="col-lg-12">
+              <h2>&nbsp;A Few Facts About Information Technology Institute <a href="#" style="color:red">ITI</a></h2>
+
+              <div class="thumb">
+                <a href="#"><img  width="2" height="4px" src="../static/images/logo.PNG" alt="srgan"></a>
+              </div>
+
+
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">99</div>
+                    <div class="count-title">Succesed Students</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">2000</div>
+                    <div class="count-title">Total Instructors</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content new-students">
+                    <div class="count-digit">50000</div>
+                    <div class="count-title">Total Students untill 2021</div>
+                  </div>
+                </div> 
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">1500</div>
+                    <div class="count-title">Awards</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+              <!-- <div class="thumb">
+                <a href="#"><img  width="10%" height="40%" src="../static/images/logo.PNG" alt="srgan"></a>
+              </div> -->
+
+        <div class="col-lg-6 align-self-center">
+          <div class="video"><!-- 
+            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="../static/images/play-icon.png" alt=""></a> -->
+              
+
+            <a href="https://www.iti.gov.eg/iti/programs/details/9M" target="_blank"><img width="1500%" height="1500%" src="../static/images/iti.png" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <section class="contact-us" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+             <!-- <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Let's get in touch</h2>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                  </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                    </fieldset>
+                  </div>-->
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <!--<div class="right-info">
+            <ul>
+              <li>
+                <h6>Phone Number</h6>
+                <span>010-020-0340</span>
+              </li>
+              <li>
+                <h6>Email Address</h6>
+                <span>info@meeting.edu</span>
+              </li>
+              <li>
+                <h6>Street Address</h6>
+                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+              </li>
+              <li>
+                <h6>Website URL</h6>
+                <span>www.meeting.edu</span>
+              </li>
+            </ul>
+          </div>-->
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright © 2022 AI PRO INTAKE 1 Machine Learning
+          <br>EPITA : <a href="https://www.iti.gov.eg/iti/home" target="_parent" title="free css templates">ITI</a></p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="../static/vendor/jquery/jquery.min.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../static/js/isotope.min.js"></script>
+    <script src="../static/js/owl-carousel.js"></script>
+    <script src="../static/js/lightbox.js"></script>
+    <script src="../static/js/tabs.js"></script>
+    <script src="../static/js/video.js"></script>
+    <script src="../static/js/slick-slider.js"></script>
+    <script src="../static/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+</body>
+</html>
